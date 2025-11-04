@@ -1,7 +1,9 @@
+# app.py
 import streamlit as st
-import os, glob, io, re, csv, json, random, datetime
+import os, io, re, csv, json, glob, random, datetime
 import numpy as np
 from io import StringIO
+from pathlib import Path
 
 import pdfplumber
 
@@ -33,15 +35,28 @@ st.set_page_config(page_title="과제 공고문 요약·매칭기", layout="wide
 st.title("과제 공고문 요약·매칭기")
 st.markdown("---")
 
+# ===== 경로/환경 세팅 =====
+REPO_ROOT   = Path(__file__).resolve().parent
+PROFILES_DIR = REPO_ROOT / "profiles"
+UPLOAD_DIR   = REPO_ROOT / "upload_pdf"
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
+# 기본 프로필 파일: repo에 포함(권장)
+DEFAULT_PROFILES_PATH = PROFILES_DIR / "profiles_updated.jsonl"
+
+# (선택) 공고 메타 저장소. 없으면 자동 스킵
+DEFAULT_BASE_DATA_PATH = REPO_ROOT / "data" / "rfp_archive"
+
 # 사이드바
 st.sidebar.header("API Key 설정")
 api_key = st.sidebar.text_input("Google AI Studio API 키", type="password")
 
 st.sidebar.header("프로필 파일")
-profiles_path = st.sidebar.text_input(
-    "교수 프로필 JSONL 경로",
-    value=r"C:\Users\PL_LAB_5\Desktop\산단\profiles_updated_exp2.jsonl"
+profiles_path_str = st.sidebar.text_input(
+    "교수 프로필 JSONL 경로 (repo 상대/절대 모두 가능)",
+    value=str(DEFAULT_PROFILES_PATH)
 )
+profiles_path = Path(profiles_path_str)
 
 st.sidebar.caption("※ PDF 업로드 즉시 요약→매칭이 자동으로 실행됩니다.")
 
@@ -53,11 +68,17 @@ if not api_key:
 os.environ["GOOGLE_API_KEY"] = api_key
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
-# 경로 & 상수
-BASE_DATA_PATH = r"C:\Users\PL_LAB_5\PyCharmMiscProject\LLaMA-Factory\pi\ntis_selenium"
+# 상수
+BASE_DATA_PATH = Path(st.secrets.get("BASE_DATA_PATH", DEFAULT_BASE_DATA_PATH))
 SBERT_MODEL_FOR_MATCH = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 HF_EMBED_MODEL_FOR_RAG = SBERT_MODEL_FOR_MATCH
 TOP_K_PREVIEW = 30
+
+YEAR_WEIGHTS = {2025: 1.5, 2024: 1.2, 2023: 1.1}
+DEFAULT_YEAR_WEIGHT = 1.0
+STAGE1_WEIGHTS = np.array([0.7, 0.1, 0.1, 0.1], dtype=float)  # (major, researchs, projects, fingerprints)
+STAGE2_WEIGHTS = np.array([0.2, 0.5, 0.2, 0.1], dtype=float)  # (major, research_year, projects, fingerprints)
+
 
 # ===== 요약 프롬프트 =====
 def get_prompt_template():
@@ -131,6 +152,7 @@ def get_prompt_template():
 ※ 위 항목까지 작성한 후, 동일한 내용을 반복하거나 덧붙이지 마세요. 출력은 여기서 끝입니다.
 """
 
+
 # ===== 유틸 =====
 def clean_final_output(raw_text: str) -> str:
     start_marker = "### 과제 목표"
@@ -140,24 +162,34 @@ def clean_final_output(raw_text: str) -> str:
         return raw_text.strip() if j == -1 else raw_text[j:].strip()
     return raw_text[i:].strip()
 
-def find_file_and_get_info(base_path, uploaded_filename):
-    search_pattern = os.path.join(base_path, "**", "*")
-    for file in glob.glob(search_pattern, recursive=True):
-        if os.path.basename(file) == uploaded_filename:
-            file_folder = os.path.dirname(file)
-            folder_name = os.path.basename(file_folder)
+
+def find_file_and_get_info(base_path: Path, uploaded_filename: str):
+    """
+    base_path 아래에서 uploaded_filename과 동일한 파일을 찾아,
+    같은 폴더의 department_name.txt / notice_link.txt 내용을 읽어온다.
+    base_path가 존재하지 않으면 '정보 없음' 반환.
+    """
+    base_path = Path(base_path)
+    if not base_path.exists():
+        return False, "정보 없음", "정보 없음", "정보 없음"
+
+    for file in base_path.rglob("*"):
+        if file.is_file() and file.name == uploaded_filename:
+            file_folder = file.parent
+            folder_name = file_folder.name
+            dep_path = file_folder / "department_name.txt"
+            link_path = file_folder / "notice_link.txt"
             try:
-                with open(os.path.join(file_folder, "department_name.txt"), encoding="utf-8") as f:
-                    department = f.read().strip()
+                department = dep_path.read_text(encoding="utf-8").strip()
             except FileNotFoundError:
                 department = "정보 없음"
             try:
-                with open(os.path.join(file_folder, "notice_link.txt"), encoding="utf-8") as f:
-                    link = f.read().strip()
+                link = link_path.read_text(encoding="utf-8").strip()
             except FileNotFoundError:
                 link = "정보 없음"
             return True, department, link, folder_name
     return False, "정보 없음", "정보 없음", "정보 없음"
+
 
 def extract_text_from_pdf(pdf_bytes):
     try:
@@ -170,8 +202,10 @@ def extract_text_from_pdf(pdf_bytes):
         st.error(f"PDF 텍스트 추출 중 오류 발생: {e}")
         return None
 
+
 def _format_docs(docs):
     return "\n\n".join(d.page_content for d in docs)
+
 
 def csv_bytes_from_rows(rows, fieldnames):
     sio = StringIO()
@@ -182,13 +216,6 @@ def csv_bytes_from_rows(rows, fieldnames):
     return sio.getvalue().encode("utf-8-sig")
 
 
-# ===== 매칭 파이프라인 상수 / 함수 =====
-
-YEAR_WEIGHTS = {2025: 1.5, 2024: 1.2, 2023: 1.1}
-DEFAULT_YEAR_WEIGHT = 1.0
-STAGE1_WEIGHTS = np.array([0.7, 0.1, 0.1, 0.1], dtype=float)  # (major, researchs, projects, fingerprints)
-STAGE2_WEIGHTS = np.array([0.2, 0.5, 0.2, 0.1], dtype=float)  # (major, research_year, projects, fingerprints)
-
 def set_seeds(seed: int = 42):
     random.seed(seed)
     np.random.seed(seed)
@@ -197,6 +224,7 @@ def set_seeds(seed: int = 42):
         torch.cuda.manual_seed_all(seed)
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
+
 
 def normalize_list(val):
     if isinstance(val, list):
@@ -208,20 +236,22 @@ def normalize_list(val):
         return out
     return [] if val is None else [str(val)]
 
+
 def load_profiles(path):
-    if not os.path.exists(path):
+    path = Path(path)
+    if not path.exists():
         raise FileNotFoundError(f"프로필 파일을 찾을 수 없습니다: {path}")
     profiles = []
-    with open(path, 'r', encoding='utf-8') as f:
+    with path.open('r', encoding='utf-8') as f:
         for line in f:
             p = json.loads(line)
             p['researchs']    = normalize_list(p.get('researchs', []))
             p['projects']     = normalize_list(p.get('projects', []))
             p['fingerprints'] = normalize_list(p.get('fingerprints', []))
-            # email도 같이 유지
             p['email']        = p.get('email', "")
             profiles.append(p)
     return profiles
+
 
 def find_elbow_threshold(scores: np.ndarray) -> float:
     """2차 차분 기반 엘보우 지점 탐지"""
@@ -360,24 +390,33 @@ def run_matching(summary_text: str, profiles_file: str, top_k_preview: int = TOP
     return preview_all, csv_rec, meta, rows_rec
 
 
-
 # ===== RAG 요약 + 매칭: 업로드 즉시 자동 실행 =====
 uploaded_file = st.file_uploader("요약·매칭할 PDF 공고문 파일을 업로드하세요.", type="pdf")
 
 if uploaded_file:
-    # 상단 메타 표시
-    found, department, notice_link, folder_title = find_file_and_get_info(BASE_DATA_PATH, uploaded_file.name)
-    if found:
-        st.info(
-            f"**📂 공고 제목:** {folder_title}  \n"
-            f"**🏢 주관 기관:** {department}  \n"
-            f"**🔗 공고 링크:** {notice_link}"
-        )
+    # ── 업로드 파일을 repo/upload_pdf/ 에 저장 ──
+    safe_name = uploaded_file.name.replace("/", "_").replace("\\", "_")
+    # 충돌 방지용 타임스탬프(원하면 지워도 됨)
+    stem, suf = os.path.splitext(safe_name)
+    unique_name = f"{stem}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}{suf}"
+    pdf_path = UPLOAD_DIR / unique_name
+    pdf_path.write_bytes(uploaded_file.getvalue())
 
-    # ① PDF → 텍스트
+    st.success(f"📁 업로드 파일 저장: {pdf_path.relative_to(REPO_ROOT)}")
+
+    # (선택) BASE_DATA_PATH가 있을 때만 메타 조회 시도
+    if BASE_DATA_PATH.exists():
+        found, department, notice_link, folder_title = find_file_and_get_info(BASE_DATA_PATH, uploaded_file.name)
+        if found:
+            st.info(
+                f"**📂 공고 제목:** {folder_title}  \n"
+                f"**🏢 주관 기관:** {department}  \n"
+                f"**🔗 공고 링크:** {notice_link}"
+            )
+
+    # ① PDF → 텍스트 (저장한 파일에서 다시 로드)
     with st.spinner("① PDF 분석 중 (텍스트 추출)…"):
-        pdf_bytes = uploaded_file.getvalue()
-        documents = extract_text_from_pdf(pdf_bytes)
+        documents = extract_text_from_pdf(pdf_path.read_bytes())
         if not documents:
             st.stop()
 
@@ -425,7 +464,7 @@ if uploaded_file:
     st.text_area("📌 최종 요약 결과", summary, height=450)
 
     # ④ SBERT 매칭
-    if not os.path.exists(profiles_path):
+    if not profiles_path.exists():
         st.error(f"프로필 파일을 찾을 수 없습니다: {profiles_path}")
         st.stop()
 
@@ -433,7 +472,7 @@ if uploaded_file:
         try:
             preview_rec, csv_rec, meta, recommended_list = run_matching(
                 summary_text=summary,
-                profiles_file=profiles_path,
+                profiles_file=str(profiles_path),  # 내부에서 open(str) 사용
                 top_k_preview=TOP_K_PREVIEW
             )
         except Exception as e:
@@ -445,14 +484,11 @@ if uploaded_file:
         f"후보 {meta['n_candidates']}명 중 추천 {meta['n_recommended']}명"
     )
 
-    # 최종 추천 테이블 표시 (score 없이)
-    st.subheader("추천 대상 (label=True)")
+    # 최종 추천 테이블 표시 (상위 미리보기)
+    st.subheader("추천 대상 미리보기 (상위 후보)")
     st.dataframe(preview_rec, use_container_width=True)
 
-    # 전체 추천 raw도 보고 싶으면 주석 해제
-    # st.json(recommended_list)
-
-    # 추천 CSV 다운로드
+    # 추천 CSV 다운로드 (label=True만 저장됨)
     st.download_button(
         "추천 후보 CSV 다운로드",
         data=csv_rec,
@@ -462,4 +498,4 @@ if uploaded_file:
     )
 
 else:
-    st.info("👆 PDF를 업로드하면 자동으로 요약 → 매칭이 실행됩니다.")
+    st.info("👆 PDF를 업로드하면 자동으로 **upload_pdf/**에 저장된 뒤 요약 → 매칭이 실행됩니다.")
