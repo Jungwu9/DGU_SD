@@ -31,7 +31,7 @@ import torch
 
 
 # ===== 기본 설정 =====
-st.set_page_config(page_title="과제 공고문 요약·매칭기", layout="wide")
+st.set_page_config(page_title="과제 공고문 요약·추천", layout="wide")
 st.title("과제 공고문 요약·매칭기")
 st.markdown("---")
 
