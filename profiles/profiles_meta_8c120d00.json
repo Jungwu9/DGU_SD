@@ -1,0 +1,2807 @@
+{
+  "profiles_jsonl": "C:\\Users\\PL_LAB_5\\Desktop\\산단\\profiles_updated_exp2.jsonl",
+  "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "count": 559,
+  "fields": [
+    "name",
+    "major",
+    "email"
+  ],
+  "rows": [
+    {
+      "name": "Abu Talha Aqueel Ahmed",
+      "major": "Division of System Semiconductor",
+      "email": "talhaphy@gmail.com"
+    },
+    {
+      "name": "Hee chul Ahn",
+      "major": "Department of Pharmacy",
+      "email": "hcahn@dongguk.edu"
+    },
+    {
+      "name": "Hong min Ahn",
+      "major": "Department of Advertising & Public relation",
+      "email": "hongmin.ahn@dongguk.edu"
+    },
+    {
+      "name": "Hong yup Ahn",
+      "major": "Department of Statistics",
+      "email": "ahn@dongguk.edu"
+    },
+    {
+      "name": "Hyung taik Ahn",
+      "major": "Department of Economics",
+      "email": "htahn@dongguk.edu"
+    },
+    {
+      "name": "Jae wook Ahn",
+      "major": "Department of Mathematics",
+      "email": "jaewookahn@dgu.ac.kr"
+    },
+    {
+      "name": "Jong suk Ahn",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "jahn@dgu.edu"
+    },
+    {
+      "name": "So min Ahn",
+      "major": "Department of Medicine",
+      "email": "ahnsomin808@gmail.com"
+    },
+    {
+      "name": "Sun shin Ahn",
+      "major": "Department of Mathematics Education",
+      "email": "sunshine@dongguk.edu"
+    },
+    {
+      "name": "Geon Hyoung An",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "ghan@gnu.ac.kr"
+    },
+    {
+      "name": "Shiva Kumar Arumugasamy",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "shiva.cva16@dgu.ac.kr"
+    },
+    {
+      "name": "Khan muhammad Asghar",
+      "major": "College of Engineering",
+      "email": "asg.sju@gmail.com"
+    },
+    {
+      "name": "Han su Bae",
+      "major": "Department of Medicine",
+      "email": "hsbae81@gmail.com"
+    },
+    {
+      "name": "Kwang bin Bae",
+      "major": "Department of Public Administration",
+      "email": "kbae@dongguk.edu"
+    },
+    {
+      "name": "Jung woo Baek",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "jwbaek@dongguk.edu"
+    },
+    {
+      "name": "Young won Baek",
+      "major": "Department of Architectural Engineering",
+      "email": "tokyobyw@yahoo.co.kr"
+    },
+    {
+      "name": "Yong hae Baik",
+      "major": "Department of Medicine",
+      "email": "whitedrag@naver.com"
+    },
+    {
+      "name": "Chandran Balamurugan",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "cbalamurugan2008@gmail.com"
+    },
+    {
+      "name": "Eun jeong Ban",
+      "major": "Department of Medicine",
+      "email": "ejban@naver.com"
+    },
+    {
+      "name": "Seok young Bang",
+      "major": "Department of Biomedical Engineering",
+      "email": "seokyoung.bang@dongguk.edu"
+    },
+    {
+      "name": "Ganbayar Batchuluun",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "ganabata87@gmail.com"
+    },
+    {
+      "name": "Sonali Ajay Beknalkar",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "sonaliabeknalkar@gmail.com"
+    },
+    {
+      "name": "Alvin Bacero Bello",
+      "major": "College of Life Science and Biotechnology",
+      "email": "abacerobello@gmail.com"
+    },
+    {
+      "name": "Jai Bhagwan",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "jaibhagwan01@gmail.com"
+    },
+    {
+      "name": "Vishwa Bhatt",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "vishwadbhatt@gmail.com"
+    },
+    {
+      "name": "Michael John Binns",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "mbinns@dongguk.edu"
+    },
+    {
+      "name": "Sang jin Byun",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "sjbyun@dongguk.edu"
+    },
+    {
+      "name": "Colin William Campbell",
+      "major": "Division of English Language & Literature",
+      "email": "cobblepot@live.com"
+    },
+    {
+      "name": "Sang won Cha",
+      "major": "Department of Chemistry",
+      "email": "chasw@dongguk.edu"
+    },
+    {
+      "name": "Karthikeyan Chandrasekaran",
+      "major": "Department of Life Science",
+      "email": "Karthiisro@gmail.com"
+    },
+    {
+      "name": "Joon ho Chang",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "jchang@dongguk.edu"
+    },
+    {
+      "name": "Bum kyu Cho",
+      "major": "Department of Mathematics",
+      "email": "bam2357@gmail.com"
+    },
+    {
+      "name": "Chang gun Cho",
+      "major": "Department of Medicine",
+      "email": "cho69@duih.org"
+    },
+    {
+      "name": "Durk bin Cho",
+      "major": "Department of Mathematics",
+      "email": "durkbin@dongguk.edu"
+    },
+    {
+      "name": "Hoon young Cho",
+      "major": "Department of Physics",
+      "email": "hycho@dongguk.edu"
+    },
+    {
+      "name": "Hye Jung Cho",
+      "major": "Department of Medicine",
+      "email": "heajungcho@hanmail.net"
+    },
+    {
+      "name": "Keun tae Cho",
+      "major": "Department of Medicine",
+      "email": "ktcho21@naver.com"
+    },
+    {
+      "name": "Kwang hee Cho",
+      "major": "Department of Accounting",
+      "email": "phdcho@dongguk.edu"
+    },
+    {
+      "name": "Kyung eun Cho",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "cke@dongguk.edu"
+    },
+    {
+      "name": "Sang eun Cho",
+      "major": "Division of System Semiconductor",
+      "email": "sangeunah@gmail.com"
+    },
+    {
+      "name": "Sang sik Cho",
+      "major": "Department of Education",
+      "email": "educandus@dongguk.edu"
+    },
+    {
+      "name": "Si kyung Cho",
+      "major": "Department of Biological and Environmental Science",
+      "email": "sk.cho@dgu.ac.kr"
+    },
+    {
+      "name": "Sung in Cho",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "csi2267@dongguk.edu"
+    },
+    {
+      "name": "Young il Cho",
+      "major": "Department of Police Administration",
+      "email": "yicho@dongguk.edu"
+    },
+    {
+      "name": "Youn oh Cho",
+      "major": "Department of Police Administration",
+      "email": "ycho@dongguk.edu"
+    },
+    {
+      "name": "Samuel Eleazar Chodorov",
+      "major": "Department of Film & Digital Media",
+      "email": "pipchod@dongguk.edu"
+    },
+    {
+      "name": "Joong chul Choe",
+      "major": "Department of Chemistry",
+      "email": "jcchoe@dongguk.edu"
+    },
+    {
+      "name": "Yeon shik Choe",
+      "major": "Department of History",
+      "email": "soyowon@dongguk.edu"
+    },
+    {
+      "name": "Byeong hwa Choi",
+      "major": "Department of International Trade",
+      "email": "bh.choi@dongguk.edu"
+    },
+    {
+      "name": "Chang ik Choi",
+      "major": "Department of Pharmacy",
+      "email": "cichoi@dongguk.edu"
+    },
+    {
+      "name": "Gyoung gyu Choi",
+      "major": "Department of Business Administration",
+      "email": "gchoi@dongguk.edu"
+    },
+    {
+      "name": "Han ho Choi",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "hhchoi@dongguk.edu"
+    },
+    {
+      "name": "Han seok Choi",
+      "major": "Department of Medicine",
+      "email": "hschoi402@dumc.or.kr"
+    },
+    {
+      "name": "Hyun do Choi",
+      "major": "Department of Business Administration",
+      "email": "h.choi@dongguk.edu"
+    },
+    {
+      "name": "Jong soo Choi",
+      "major": "Department of Architectural Engineering",
+      "email": "jchoi@dongguk.edu"
+    },
+    {
+      "name": "Jun kyun Choi",
+      "major": "Department of Medicine",
+      "email": "cjanes@dumc.or.kr"
+    },
+    {
+      "name": "Jun Young Choi",
+      "major": "Department of Medicine",
+      "email": "junyoung2025@gmail.com"
+    },
+    {
+      "name": "Min jae Choi",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "minjae.choi@dgu.ac.kr"
+    },
+    {
+      "name": "Min suk Choi",
+      "major": "Department of Medicine",
+      "email": "dgcms@naver.com"
+    },
+    {
+      "name": "Sang mi Choi",
+      "major": "Department of Social Welfare Counselling",
+      "email": "schoi@dongguk.edu"
+    },
+    {
+      "name": "Sung im Choi",
+      "major": "Department of Medicine",
+      "email": "drsichoi87@gmail.com"
+    },
+    {
+      "name": "Won jun Choi",
+      "major": "Department of Pharmacy",
+      "email": "mp89@dongguk.edu"
+    },
+    {
+      "name": "You jin Choi",
+      "major": "Department of Advertising & Public relation",
+      "email": "ychoi@dongguk.edu"
+    },
+    {
+      "name": "Young hee Choi",
+      "major": "Department of Pharmacy",
+      "email": "choiyh@dongguk.edu"
+    },
+    {
+      "name": "Yung kyun Choi",
+      "major": "Department of Advertising & Public relation",
+      "email": "choiyung@dongguk.edu"
+    },
+    {
+      "name": "Seok joo Chun",
+      "major": "Department of Medicine",
+      "email": "guerinica@gmail.com"
+    },
+    {
+      "name": "Seung woo Chun",
+      "major": "Department of Business Administration",
+      "email": "schun5@dongguk.edu"
+    },
+    {
+      "name": "Dae won Chung",
+      "major": "Department of Advanced Battery Convergence Engineering",
+      "email": "jung1362@dgu.edu"
+    },
+    {
+      "name": "Goo hyeok Chung",
+      "major": "Department of Business Administration",
+      "email": "ghchung@dongguk.edu"
+    },
+    {
+      "name": "Jaehoon Chung",
+      "major": "Department of Medicine",
+      "email": "drjhchung@naver.com"
+    },
+    {
+      "name": "Jae woo Chung",
+      "major": "Department of Medicine",
+      "email": "jwchung@dumc.or.kr"
+    },
+    {
+      "name": "Jean hun Chung",
+      "major": "Department of Multimedia",
+      "email": "evengates@gmail.com"
+    },
+    {
+      "name": "Jin wook Chung",
+      "major": "Department of Sports Culture",
+      "email": "cjw826@dongguk.edu"
+    },
+    {
+      "name": "Kwun bum Chung",
+      "major": "Department of Physics",
+      "email": "kbchung@dongguk.edu"
+    },
+    {
+      "name": "Sang min Chung",
+      "major": "Department of Life Science",
+      "email": "smchung@dongguk.edu"
+    },
+    {
+      "name": "Yong kuk Chung",
+      "major": "Department of Media Communication",
+      "email": "ykemjy@dongguk.edu"
+    },
+    {
+      "name": "Gitishree Das",
+      "major": "College of Life Science and Biotechnology",
+      "email": "gdas@dongguk.edu"
+    },
+    {
+      "name": "Bathula Chinna Devasahayam",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "chinnuchem@gmail.com"
+    },
+    {
+      "name": "Han ho Do",
+      "major": "Department of Medicine",
+      "email": "erdo@dgu.ac.kr"
+    },
+    {
+      "name": "Mari Elancheziyan",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "elanchem1991@gmail.com"
+    },
+    {
+      "name": "Su rak Eo",
+      "major": "Department of Medicine",
+      "email": "surakeo@yahoo.com"
+    },
+    {
+      "name": "Jong ryeol Eun",
+      "major": "Department of Medicine",
+      "email": "dreundavis@gmail.com"
+    },
+    {
+      "name": "Riccardo Ferraresso",
+      "major": "Department of Police Administration",
+      "email": "rferraresso@dongguk.edu"
+    },
+    {
+      "name": "Hao Fu",
+      "major": "Department of Physics",
+      "email": "fuhaochn@163.com"
+    },
+    {
+      "name": "Gajanan Sampatrao Ghodake",
+      "major": "Department of Biological and Environmental Science",
+      "email": "ghodakegs@gmail.com"
+    },
+    {
+      "name": "Bo geun Gwak",
+      "major": "Department of Physics",
+      "email": "rasenis@dongguk.edu"
+    },
+    {
+      "name": "Dong seok Gwak",
+      "major": "Department of Medicine",
+      "email": "dongsk002@gmail.com"
+    },
+    {
+      "name": "Hong youl Ha",
+      "major": "Department of International Trade",
+      "email": "hyha@dongguk.edu"
+    },
+    {
+      "name": "Adnan Haider",
+      "major": "College of Advanced Convergence Engineering",
+      "email": "adnanhaider66@gmail.com"
+    },
+    {
+      "name": "Gwang ya Han",
+      "major": "Department of Architectural Engineering",
+      "email": "ghan@dgu.edu"
+    },
+    {
+      "name": "Hyo kyung Han",
+      "major": "Department of Pharmacy",
+      "email": "hkhan@dongguk.edu"
+    },
+    {
+      "name": "Jae hee Han",
+      "major": "Department of Buddhist Studies",
+      "email": "hanj0405@dgu.edu"
+    },
+    {
+      "name": "Jeehoon Han",
+      "major": "Department of Sports Culture",
+      "email": "Jeehoon010@dongguk.edu"
+    },
+    {
+      "name": "Jeong in Han",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "hanji@dongguk.edu"
+    },
+    {
+      "name": "Jong suk Han",
+      "major": "Department of Economics",
+      "email": "hanjs2731@hotmail.com"
+    },
+    {
+      "name": "Ki jin Han",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "kjhan@dongguk.edu"
+    },
+    {
+      "name": "Min woo Han",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "mwhan@dgu.edu"
+    },
+    {
+      "name": "Young kyu Han",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "ykenergy@dongguk.edu"
+    },
+    {
+      "name": "Sultan Haseeb",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "haseebsltn@gmail.com"
+    },
+    {
+      "name": "Dae un Hong",
+      "major": "Department of Law",
+      "email": "fortune77@dgu.ac.kr"
+    },
+    {
+      "name": "Jung min Hong",
+      "major": "Division of English Language & Literature",
+      "email": "drew97@dongguk.edu"
+    },
+    {
+      "name": "Seung hyun Hong",
+      "major": "Division of English Language & Literature",
+      "email": "suehong@dongguk.edu"
+    },
+    {
+      "name": "Song iee Hong",
+      "major": "Department of Social Welfare",
+      "email": "songiee25@dongguk.edu"
+    },
+    {
+      "name": "Sung kyu Hong",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "hsk5457@dongguk.edu"
+    },
+    {
+      "name": "Sun ki Hong",
+      "major": "Department of Law",
+      "email": "sungihong@hanmail.net"
+    },
+    {
+      "name": "Woo hyung Hong",
+      "major": "Department of Economics",
+      "email": "whhong@dgu.ac.kr"
+    },
+    {
+      "name": "You pyo Hong",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "yhong@dgu.edu"
+    },
+    {
+      "name": "Hee jin Huh",
+      "major": "Department of Medicine",
+      "email": "hjhuh@dumc.or.kr"
+    },
+    {
+      "name": "Ha sung Hwang",
+      "major": "Department of Media Communication",
+      "email": "hhwang@dongguk.edu"
+    },
+    {
+      "name": "Jae hyun Hwang",
+      "major": "Department of Food Industrial Management",
+      "email": "hwang0627@dgu.edu"
+    },
+    {
+      "name": "Jin tae Hwang",
+      "major": "Department of North Korean Studies",
+      "email": "dchjt@dongguk.edu"
+    },
+    {
+      "name": "Jong yon Hwang",
+      "major": "Division of Korean Language, Literature, and Creative Writing",
+      "email": "hjongyon@dongguk.edu"
+    },
+    {
+      "name": "Seung hoon Hwang",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "shwang@dongguk.edu"
+    },
+    {
+      "name": "Soon il Hwang",
+      "major": "Department of Buddhist Studies",
+      "email": "sihwang@dongguk.edu"
+    },
+    {
+      "name": "Jung hwan Hyun",
+      "major": "Department of International Trade",
+      "email": "junghwan.hyun039@gmail.com"
+    },
+    {
+      "name": "Pugazhendi Ilanchezhiyan",
+      "major": "College of Advanced Convergence Engineering",
+      "email": "ilanchezhiyan@gmail.com"
+    },
+    {
+      "name": "Gun il Im",
+      "major": "Department of Medicine",
+      "email": "gunil@dumc.or.kr"
+    },
+    {
+      "name": "Jun yong In",
+      "major": "Department of Medicine",
+      "email": "dragona1@dumc.or.kr"
+    },
+    {
+      "name": "Akbar Ibrahim Inamdar",
+      "major": "Division of System Semiconductor",
+      "email": "akbarphysics@dongguk.edu"
+    },
+    {
+      "name": "Mobinul Islam",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "mobin01cjnu@gmail.com"
+    },
+    {
+      "name": "Muhammad Ismail",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "ismailmalikbzu10@gmail.com"
+    },
+    {
+      "name": "Atanu Jana",
+      "major": "Division of System Semiconductor",
+      "email": "atanujanaic@gmail.com"
+    },
+    {
+      "name": "Ha yong Jang",
+      "major": "Department of Media Communication",
+      "email": "comjang@dongguk.edu"
+    },
+    {
+      "name": "Hwan young Jang",
+      "major": "Department of Education",
+      "email": "welcome@dongguk.edu"
+    },
+    {
+      "name": "Hye ryung Jang",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "hyeryung.jang@dgu.ac.kr"
+    },
+    {
+      "name": "Jae Sik Jang",
+      "major": "Department of Medicine",
+      "email": "jsjang71@gmail.com"
+    },
+    {
+      "name": "Jae won Jang",
+      "major": "Division of System Semiconductor",
+      "email": "jwjang@dgu.ac.kr"
+    },
+    {
+      "name": "Won hee Jang",
+      "major": "Department of Life Science",
+      "email": "wany@dongguk.edu"
+    },
+    {
+      "name": "Ashok Kumar Jangid",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "ashok4483@gmail.com"
+    },
+    {
+      "name": "Byung hoon Jeon",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "bhjeon@dongguk.edu"
+    },
+    {
+      "name": "Hee chang Jeon",
+      "major": "College of Engineering",
+      "email": "hcjeon@dongguk.edu"
+    },
+    {
+      "name": "Jin Q. Jeon",
+      "major": "Department of Business Administration",
+      "email": "jjeon@dongguk.edu"
+    },
+    {
+      "name": "Joon hyeon Jeon",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "memory@dgu.edu"
+    },
+    {
+      "name": "Jueun Jeon",
+      "major": "Department of Police Administration",
+      "email": "jueun.jeon@dongguk.edu"
+    },
+    {
+      "name": "Duk hoon Jeong",
+      "major": "Department of Management Information System",
+      "email": "duke@dongguk.edu"
+    },
+    {
+      "name": "Eun sung Jeong",
+      "major": "Department of Medicine",
+      "email": "asurada1405@gmail.com"
+    },
+    {
+      "name": "Jong seob Jeong",
+      "major": "Department of Biomedical Engineering",
+      "email": "jjsspace@dongguk.edu"
+    },
+    {
+      "name": "Jun ho Jeong",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "yanyenli@hotmail.com"
+    },
+    {
+      "name": "Sang wuk Jeong",
+      "major": "Department of Medicine",
+      "email": "totopia@duih.org"
+    },
+    {
+      "name": "Youn gil Jeong",
+      "major": "Dharma College",
+      "email": "eagleton@dongguk.edu"
+    },
+    {
+      "name": "Young sik Jeong",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "ysjeong@dongguk.edu"
+    },
+    {
+      "name": "Yun jeong Jeong",
+      "major": "Department of Medicine",
+      "email": "yunjjmd@gmail.com"
+    },
+    {
+      "name": "In bae Ji",
+      "major": "Department of Food Industrial Management",
+      "email": "jiinbae@dongguk.edu"
+    },
+    {
+      "name": "In yeob Ji",
+      "major": "Department of Economics",
+      "email": "philipji0422@gmail.com"
+    },
+    {
+      "name": "Ha neul Jin",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "hjin1@dongguk.edu"
+    },
+    {
+      "name": "Mok Jin Hong",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "jhmok1024@pknu.ac.kr"
+    },
+    {
+      "name": "Eun kyung Jo",
+      "major": "Department of Police Administration",
+      "email": "ekjo@dongguk.edu"
+    },
+    {
+      "name": "Jea woong Jo",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "whwp78@gmail.com"
+    },
+    {
+      "name": "Soo ho Jo",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "soohojo@dgu.ac.kr"
+    },
+    {
+      "name": "Soo min Jo",
+      "major": "Department of Medicine",
+      "email": "1121jsm@gmail.com"
+    },
+    {
+      "name": "Jong wha joanne Joo",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "jwjjoo@dgu.ac.kr"
+    },
+    {
+      "name": "Yong sung Joo",
+      "major": "Department of Statistics",
+      "email": "yongsungjoo.dg@gmail.com"
+    },
+    {
+      "name": "Chang bum Ju",
+      "major": "Department of Public Administration",
+      "email": "cbju@dongguk.edu"
+    },
+    {
+      "name": "Joo yong Jun",
+      "major": "Department of Economics",
+      "email": "jooyong@dongguk.edu"
+    },
+    {
+      "name": "Mi kyung Jun",
+      "major": "Department of Home Economics Education",
+      "email": "mkjun@dongguk.edu"
+    },
+    {
+      "name": "Sung bum Jun",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "sbjun@dgu.ac.kr"
+    },
+    {
+      "name": "Hyun Jung",
+      "major": "Department of Chemistry",
+      "email": "chemphile@dongguk.edu"
+    },
+    {
+      "name": "Hyun sam Jung",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "junghyunsam@naver.com"
+    },
+    {
+      "name": "Jin woo Jung",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "jwjung@dongguk.edu"
+    },
+    {
+      "name": "Jin woo Jung",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "jinwjung@dongguk.edu"
+    },
+    {
+      "name": "Joo won Jung",
+      "major": "Department of Home Economics Education",
+      "email": "jjwjung@dongguk.edu"
+    },
+    {
+      "name": "Sun moon Jung",
+      "major": "Department of Accounting",
+      "email": "sunmoonjung@dongguk.edu"
+    },
+    {
+      "name": "Uk Jung",
+      "major": "Department of Business Administration",
+      "email": "ukjung@dongguk.edu"
+    },
+    {
+      "name": "Bokgyeong Kang",
+      "major": "Department of Statistics",
+      "email": "bkang525@gmail.com"
+    },
+    {
+      "name": "Donghyun Kang",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "donghyun@dongguk.edu"
+    },
+    {
+      "name": "Dong wook Kang",
+      "major": "Department of Law",
+      "email": "dwkang@dongguk.edu"
+    },
+    {
+      "name": "Eun kyeong Kang",
+      "major": "Department of Medicine",
+      "email": "silbear@hanmail.net"
+    },
+    {
+      "name": "Ho duck Kang",
+      "major": "Department of Biological and Environmental Science",
+      "email": "hdk0225@dongguk.edu"
+    },
+    {
+      "name": "Jae won Kang",
+      "major": "Department of Media Communication",
+      "email": "jaekang@dongguk.edu"
+    },
+    {
+      "name": "Joo hyon Kang",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "joohyon@dongguk.edu"
+    },
+    {
+      "name": "Jun won Kang",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "junwon89@dgu.edu"
+    },
+    {
+      "name": "Kyeong hoon Kang",
+      "major": "Department of Business Administration",
+      "email": "khkang@dongguk.edu"
+    },
+    {
+      "name": "Kyu young Kang",
+      "major": "Department of Biological and Environmental Science",
+      "email": "kykang@dongguk.edu"
+    },
+    {
+      "name": "Sam mo Kang",
+      "major": "Department of Economics",
+      "email": "sammokang@dongguk.edu"
+    },
+    {
+      "name": "Seok seong Kang",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "sskang@dgu.ac.kr"
+    },
+    {
+      "name": "Taek jin Kang",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "taekkang@dongguk.edu"
+    },
+    {
+      "name": "Woo seong Kang",
+      "major": "Department of Business Administration",
+      "email": "wskang@dongguk.edu"
+    },
+    {
+      "name": "Adaikalam Kathalingam",
+      "major": "College of Engineering",
+      "email": "kathu@dongguk.edu"
+    },
+    {
+      "name": "Na na Keum",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "nak212@dongguk.edu"
+    },
+    {
+      "name": "Young sam Keum",
+      "major": "Department of Pharmacy",
+      "email": "keum03@dongguk.edu"
+    },
+    {
+      "name": "Salman Khalid",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "salmankhalid@dongguk.edu"
+    },
+    {
+      "name": "Young jin Kiem",
+      "major": "Department of Philosophy",
+      "email": "phi.kiem@gmail.com"
+    },
+    {
+      "name": "Beong ki Kim",
+      "major": "Department of Medicine",
+      "email": "negero55@hanmail.net"
+    },
+    {
+      "name": "Bo hae Kim",
+      "major": "Department of Medicine",
+      "email": "bohae111@naver.com"
+    },
+    {
+      "name": "Bum joo Kim",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "bkim1@dongguk.edu"
+    },
+    {
+      "name": "Byung hyuk Kim",
+      "major": "Department of Life Science",
+      "email": "bkim12@dongguk.edu"
+    },
+    {
+      "name": "Chang sup Kim",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "biocskim@dgu.ac.kr"
+    },
+    {
+      "name": "Cheong seok Kim",
+      "major": "Department of Sociology",
+      "email": "chkim108@dongguk.edu"
+    },
+    {
+      "name": "Cheon hag Kim",
+      "major": "Buddhist Culture Research Institute",
+      "email": "godam@dongguk.edu"
+    },
+    {
+      "name": "Dae lyong Kim",
+      "major": "Department of Business Administration",
+      "email": "dlkim@dongguk.edu"
+    },
+    {
+      "name": "Dae young Kim",
+      "major": "Department of Biological and Environmental Science",
+      "email": "sbpkim@dongguk.edu"
+    },
+    {
+      "name": "Dal yong Kim",
+      "major": "Department of Medicine",
+      "email": "moondragon81@naver.com"
+    },
+    {
+      "name": "Do hyun Kim",
+      "major": "Department of Law",
+      "email": "nomos@dongguk.edu"
+    },
+    {
+      "name": "Do jin Kim",
+      "major": "Department of Mathematics",
+      "email": "kimdojin@dongguk.edu"
+    },
+    {
+      "name": "Dong eog Kim",
+      "major": "Department of Medicine",
+      "email": "dxtxok@gmail.com"
+    },
+    {
+      "name": "Dong han Kim",
+      "major": "Department of Mathematics Education",
+      "email": "kim2010@dongguk.edu"
+    },
+    {
+      "name": "Dong ho Kim",
+      "major": "Software Education Institute",
+      "email": "dongho.kim@dgu.edu"
+    },
+    {
+      "name": "Dong woo Kim",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "Dongwoo.Kim@dgu.ac.kr"
+    },
+    {
+      "name": "Do wan Kim",
+      "major": "Division of System Semiconductor",
+      "email": "dowankim8802@gmail.com"
+    },
+    {
+      "name": "Eo jin Kim",
+      "major": "Department of Medicine",
+      "email": "pathejk@hanmail.net"
+    },
+    {
+      "name": "Eon ho Kim",
+      "major": "Department of Physical Education",
+      "email": "eonkim@dongguk.edu"
+    },
+    {
+      "name": "Gap sue Kim",
+      "major": "Dharma College",
+      "email": "molpro@dongguk.edu"
+    },
+    {
+      "name": "Hak ju Kim",
+      "major": "Department of Social Welfare",
+      "email": "drlionking@hanmail.net"
+    },
+    {
+      "name": "Ha kyoung Kim",
+      "major": "Department of Medicine",
+      "email": "gooddayhaileyk@gmail.com"
+    },
+    {
+      "name": "Han Saem Kim",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "hansaem@dongguk.edu"
+    },
+    {
+      "name": "Hee sun Kim",
+      "major": "Department of Medicine",
+      "email": "smallkong@dumc.or.kr"
+    },
+    {
+      "name": "Heung soo Kim",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "heungsoo@dgu.edu"
+    },
+    {
+      "name": "Hong won Kim",
+      "major": "Department of Chemistry",
+      "email": "hongkim0418@gmail.com"
+    },
+    {
+      "name": "Hyeong joon Kim",
+      "major": "Department of Business Administration",
+      "email": "creatingnews@dongguk.edu"
+    },
+    {
+      "name": "Hye sun Kim",
+      "major": "LINC(Leaders in Industry-University Cooperation) 3.0 Project",
+      "email": "daisyhsun@dongguk.edu"
+    },
+    {
+      "name": "Hye youn Kim",
+      "major": "Department of Korean Language Education",
+      "email": "hyeyoun.kim@dgu.ac.kr"
+    },
+    {
+      "name": "Hyo gyoo Kim",
+      "major": "Department of Advertising & Public relation",
+      "email": "hgkim@dongguk.edu"
+    },
+    {
+      "name": "Hyon dong Kim",
+      "major": "Department of Business Administration",
+      "email": "kim1415@dongguk.edu"
+    },
+    {
+      "name": "Hyoung yong Kim",
+      "major": "Department of Social Welfare",
+      "email": "fairwork@dongguk.edu"
+    },
+    {
+      "name": "Hyung suk Kim",
+      "major": "Department of Medicine",
+      "email": "willybimish@naver.com"
+    },
+    {
+      "name": "Hyun seok Kim",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "hyunseokk@dongguk.edu"
+    },
+    {
+      "name": "Hyun suk Kim",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "khs3297@dongguk.edu"
+    },
+    {
+      "name": "Hyun woo Kim",
+      "major": "Department of Pharmacy",
+      "email": "hwkim8906@dongguk.edu"
+    },
+    {
+      "name": "In woo Kim",
+      "major": "Department of Sports Culture",
+      "email": "iwkim@dongguk.edu"
+    },
+    {
+      "name": "Jae hyun Kim",
+      "major": "Division of System Semiconductor",
+      "email": "jaehyunk@dongguk.edu"
+    },
+    {
+      "name": "Jae sun Kim",
+      "major": "Department of Law",
+      "email": "jaesk910@gmail.com"
+    },
+    {
+      "name": "Jeong ah Kim",
+      "major": "Department of Architectural Engineering",
+      "email": "jakim@dongguk.edu"
+    },
+    {
+      "name": "Jeongyun Kim",
+      "major": "Department of Medicine",
+      "email": "jyunlibe@naver.com"
+    },
+    {
+      "name": "Jihee Kim",
+      "major": "Division of English Language & Literature",
+      "email": "jiheekim889@gmail.com"
+    },
+    {
+      "name": "Ji hee Kim",
+      "major": "Department of Fine Arts",
+      "email": "kjh83@dongguk.edu"
+    },
+    {
+      "name": "Ji hie Kim",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "jihie.kim@dgu.edu"
+    },
+    {
+      "name": "Jin sik Kim",
+      "major": "Department of Biomedical Engineering",
+      "email": "lookup2@dongguk.edu"
+    },
+    {
+      "name": "Jin young Kim",
+      "major": "Department of Medicine",
+      "email": "bigjw@naver.com"
+    },
+    {
+      "name": "Jong il Kim",
+      "major": "Department of Economics",
+      "email": "jongil@dongguk.edu"
+    },
+    {
+      "name": "Jong Il Kim",
+      "major": "Dharma College",
+      "email": "jongil1103@naver.com"
+    },
+    {
+      "name": "Jong jin Kim",
+      "major": "Academy of Buddhist Studies",
+      "email": "kimjj37@dgu.edu"
+    },
+    {
+      "name": "Jong pil Kim",
+      "major": "Department of Chemistry",
+      "email": "jpkim153@dongguk.edu"
+    },
+    {
+      "name": "Jong wook Kim",
+      "major": "Department of Buddhist Studies",
+      "email": "jwkimlee@hanmail.net"
+    },
+    {
+      "name": "Joo seong Kim",
+      "major": "Department of Medicine",
+      "email": "lastpromise0@hanmail.net"
+    },
+    {
+      "name": "Ju hyun Kim",
+      "major": "Department of Chemistry",
+      "email": "juhyunkim@dongguk.edu"
+    },
+    {
+      "name": "Jun Kim",
+      "major": "Department of Multimedia",
+      "email": "music@dongguk.edu"
+    },
+    {
+      "name": "Jun seok Kim",
+      "major": "Department of Political Science and Diplomacy",
+      "email": "jspicture2007@gmail.com"
+    },
+    {
+      "name": "Jun tae Kim",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "jkim@dongguk.edu"
+    },
+    {
+      "name": "Kang Hee Kim",
+      "major": "Department of Medicine",
+      "email": "csmkkh@hotmail.com"
+    },
+    {
+      "name": "Kap soon Kim",
+      "major": "Department of Accounting",
+      "email": "kks@dongguk.edu"
+    },
+    {
+      "name": "Keon wook Kim",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "kwkim@dgu.ac.kr"
+    },
+    {
+      "name": "Keug tae Kim",
+      "major": "Department of Biological and Environmental Science",
+      "email": "kkt38@dongguk.edu"
+    },
+    {
+      "name": "Kwang ki Kim",
+      "major": "Department of Medicine",
+      "email": "neukim@dumc.or.kr"
+    },
+    {
+      "name": "Kwan ho Kim",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "kahkim@dgu.ac.kr"
+    },
+    {
+      "name": "Kyo bum Kim",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "kyobum.kim@dongguk.edu"
+    },
+    {
+      "name": "Kyong jae Kim",
+      "major": "Department of Management Information System",
+      "email": "kjkim@dongguk.edu"
+    },
+    {
+      "name": "Kyoung ah Kim",
+      "major": "Department of Medicine",
+      "email": "kakimmd@gmail.com"
+    },
+    {
+      "name": "Kyoung gon Kim",
+      "major": "Department of International Trade",
+      "email": "goniyo@dongguk.edu"
+    },
+    {
+      "name": "Kyoung ok Kim",
+      "major": "Department of Medicine",
+      "email": "pissces00@gmail.com"
+    },
+    {
+      "name": "Kyung hye Kim",
+      "major": "Division of English Language & Literature",
+      "email": "kyunghye.kim@dgu.ac.kr"
+    },
+    {
+      "name": "Kyung rae Kim",
+      "major": "Department of Buddhist Studies",
+      "email": "wizkyung@dongguk.edu"
+    },
+    {
+      "name": "Martha Kim",
+      "major": "Department of Medicine",
+      "email": "marthakim22@gmail.com"
+    },
+    {
+      "name": "Min hyu Kim",
+      "major": "Department of Public Administration",
+      "email": "mkim2021@dongguk.edu"
+    },
+    {
+      "name": "Min sung Kim",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "mkim@dgu.ac.kr"
+    },
+    {
+      "name": "Nam hee Kim",
+      "major": "Department of Medicine",
+      "email": "nheekim8@paran.com"
+    },
+    {
+      "name": "Sam dong Kim",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "samdong@dongguk.edu"
+    },
+    {
+      "name": "Sang bum Kim",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "kay95@dongguk.edu"
+    },
+    {
+      "name": "Sang moon Kim",
+      "major": "Department of Sociology",
+      "email": "kimsm@dongguk.edu"
+    },
+    {
+      "name": "Seong gyu Kim",
+      "major": "Academy of Cultural Studies",
+      "email": "rkensin@gmail.com"
+    },
+    {
+      "name": "Seung yong Kim",
+      "major": "Department of Business Administration",
+      "email": "tosykim@dongguk.edu"
+    },
+    {
+      "name": "So jung Kim",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "sojungkim@dongguk.edu"
+    },
+    {
+      "name": "Soon young Kim",
+      "major": "Division of English Language & Literature",
+      "email": "kimsy@dongguk.edu"
+    },
+    {
+      "name": "Soo youn Kim",
+      "major": "Division of System Semiconductor",
+      "email": "sooyoun@dgu.ac.kr"
+    },
+    {
+      "name": "Su mi Kim",
+      "major": "Division of English Language & Literature",
+      "email": "sumikim@dongguk.edu"
+    },
+    {
+      "name": "Sung eun Kim",
+      "major": "Buddhist Culture Research Institute",
+      "email": "tsghim@gmail.com"
+    },
+    {
+      "name": "Sung joong Kim",
+      "major": "Division of English Language & Literature",
+      "email": "sk1931@dongguk.edu"
+    },
+    {
+      "name": "Sung jun Kim",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "lizzym19@gmail.com"
+    },
+    {
+      "name": "Sung kon Kim",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "xtion0903@gmail.com"
+    },
+    {
+      "name": "Sung min Kim",
+      "major": "Department of Biomedical Engineering",
+      "email": "sungmin2009@gmail.com"
+    },
+    {
+      "name": "Sun jung Kim",
+      "major": "Department of Life Science",
+      "email": "sunjungk@dongguk.edu"
+    },
+    {
+      "name": "Un jeong Kim",
+      "major": "Department of Physics",
+      "email": "ujjanekim@dongguk.edu"
+    },
+    {
+      "name": "Woo kyung Kim",
+      "major": "Department of Medicine",
+      "email": "wk2kim@naver.com"
+    },
+    {
+      "name": "Woong sup Kim",
+      "major": "Department of Information and Communication Engineering",
+      "email": "woongsup@dongguk.edu"
+    },
+    {
+      "name": "Yang woo Kim",
+      "major": "Department of Information and Communication Engineering",
+      "email": "ywkim@dongguk.edu"
+    },
+    {
+      "name": "Ye ni Kim",
+      "major": "Department of Medicine",
+      "email": "yenikim@dumc.or.kr"
+    },
+    {
+      "name": "Yeon soo Kim",
+      "major": "Department of Convergence Security",
+      "email": "kimys36@dongguk.edu"
+    },
+    {
+      "name": "Yong hwan Kim",
+      "major": "Department of Media Communication",
+      "email": "yhkim17@gmail.com"
+    },
+    {
+      "name": "Yong hyun Kim",
+      "major": "Department of North Korean Studies",
+      "email": "unikor21@dongguk.edu"
+    },
+    {
+      "name": "Yong tae Kim",
+      "major": "Buddhist Culture Research Institute",
+      "email": "yotai@dongguk.edu"
+    },
+    {
+      "name": "Young kwan Kim",
+      "major": "Department of Chemistry",
+      "email": "kimyk@dongguk.edu"
+    },
+    {
+      "name": "Young woo Kim",
+      "major": "Department of Pharmacy",
+      "email": "ywkim730@dongguk.edu"
+    },
+    {
+      "name": "Yu cheon Kim",
+      "major": "Department of Social Welfare Counselling",
+      "email": "yckim002@naver.com"
+    },
+    {
+      "name": "Bong hwan Koh",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "bkoh@dgu.ac.kr"
+    },
+    {
+      "name": "Eun jung Koo",
+      "major": "Institute of the Social Sciences",
+      "email": "eun2228@hanmail.net"
+    },
+    {
+      "name": "Prashant Kumar",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "PRASHANT88344@GMAIL.COM"
+    },
+    {
+      "name": "Beom seok Kwak",
+      "major": "Department of Medicine",
+      "email": "kbs@duih.org"
+    },
+    {
+      "name": "Bum sun Kwon",
+      "major": "Department of Medicine",
+      "email": "bskwon@dumc.or.kr"
+    },
+    {
+      "name": "Ji yean Kwon",
+      "major": "Department of Medical Device Business",
+      "email": "jykwon@dgu.ac.kr"
+    },
+    {
+      "name": "Jung hyun Kwon",
+      "major": "Department of Buddhist Studies",
+      "email": "vajradorji@gmail.com"
+    },
+    {
+      "name": "Ki seok Kwon",
+      "major": "The Dongguk Institute For History And Culture Studies",
+      "email": "kwonks93@dongguk.edu"
+    },
+    {
+      "name": "Ki woon Kwon",
+      "major": "Department of Mathematics",
+      "email": "kwkwon@dongguk.edu"
+    },
+    {
+      "name": "Kyeng hee Kwon",
+      "major": "Department of Pharmacy",
+      "email": "khkwon@dongguk.edu"
+    },
+    {
+      "name": "Soon cheol Kwon",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "kwansc12@dongguk.edu"
+    },
+    {
+      "name": "So yeon Kwon",
+      "major": "Department of Management Information System",
+      "email": "miskwon@dongguk.edu"
+    },
+    {
+      "name": "Young eun Kwon",
+      "major": "Department of Biomedical Engineering",
+      "email": "ykwon@dongguk.edu"
+    },
+    {
+      "name": "Bo ae Lee",
+      "major": "Department of Physical Education",
+      "email": "balee2240@naver.com"
+    },
+    {
+      "name": "Byong ho Lee",
+      "major": "Department of Cultural Heritage",
+      "email": "gudara90@naver.com"
+    },
+    {
+      "name": "Byung moo Lee",
+      "major": "Department of Life Science",
+      "email": "bmlee@dongguk.edu"
+    },
+    {
+      "name": "Chae ho Lee",
+      "major": "Department of Business Administration",
+      "email": "chaeholee@dongguk.edu"
+    },
+    {
+      "name": "Chae hyeong Lee",
+      "major": "Department of Medicine",
+      "email": "gynecancer@gmail.com"
+    },
+    {
+      "name": "Chang bae Lee",
+      "major": "Department of Police Administration",
+      "email": "changbaelee@dongguk.edu"
+    },
+    {
+      "name": "Chang han Lee",
+      "major": "Department of Police Administration",
+      "email": "lch28@dongguk.edu"
+    },
+    {
+      "name": "Chang hoon Lee",
+      "major": "Department of Pharmacy",
+      "email": "uatheone@gmail.com"
+    },
+    {
+      "name": "Cheol han Lee",
+      "major": "Department of Advertising & Public relation",
+      "email": "clee@dongguk.edu"
+    },
+    {
+      "name": "Choong ho Lee",
+      "major": "Department of Pharmacy",
+      "email": "choongholee@dongguk.edu"
+    },
+    {
+      "name": "Chul Lee",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "chullee@dongguk.edu"
+    },
+    {
+      "name": "Do hyung Lee",
+      "major": "Department of Global Trade",
+      "email": "dohyunglee@dongguk.edu"
+    },
+    {
+      "name": "Dong jin Lee",
+      "major": "College of Advanced Convergence Engineering",
+      "email": "jin514rin@naver.com"
+    },
+    {
+      "name": "Dong kyu Lee",
+      "major": "Department of Medicine",
+      "email": "entopic@naver.com"
+    },
+    {
+      "name": "Dong wook Lee",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "dlee@dongguk.edu"
+    },
+    {
+      "name": "Do Weon Lee",
+      "major": "Department of Medicine",
+      "email": "danthebest@naver.com"
+    },
+    {
+      "name": "Eun ja Lee",
+      "major": "Department of Medicine",
+      "email": "ejl1048@hanmail.net"
+    },
+    {
+      "name": "Eun young Lee",
+      "major": "Department of Social Welfare",
+      "email": "eunyoung.lee@dongguk.edu"
+    },
+    {
+      "name": "Gyu min Lee",
+      "major": "Department of Management Information System",
+      "email": "glee.optimizt@gmail.com"
+    },
+    {
+      "name": "Hae nim Lee",
+      "major": "Department of Social Welfare Counselling",
+      "email": "hnl22@dgu.ac.kr"
+    },
+    {
+      "name": "Han ju Lee",
+      "major": "Department of Mathematics Education",
+      "email": "hanjulee@dgu.ac.kr"
+    },
+    {
+      "name": "Ho jun Lee",
+      "major": "Department of Medicine",
+      "email": "hjrhee1@dumc.or.kr"
+    },
+    {
+      "name": "Ho kyu Lee",
+      "major": "Department of Media Communication",
+      "email": "hokyulee@dongguk.edu"
+    },
+    {
+      "name": "Hyo jung Lee",
+      "major": "Department of Education",
+      "email": "hjlee05@dongguk.edu"
+    },
+    {
+      "name": "Hyun geun Lee",
+      "major": "Department of Mathematics",
+      "email": "leeh1@kw.ac.kr"
+    },
+    {
+      "name": "Jae chul Lee",
+      "major": "Department of Political Science and Diplomacy",
+      "email": "jclee@dongguk.edu"
+    },
+    {
+      "name": "Jae hun Lee",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "jaehun@dgu.edu"
+    },
+    {
+      "name": "Jae hwa Lee",
+      "major": "Department of International Trade",
+      "email": "jaehwa@dongguk.edu"
+    },
+    {
+      "name": "Jae hwoon Lee",
+      "major": "Department of Information and Communication Engineering",
+      "email": "jaehwoon@dongguk.edu"
+    },
+    {
+      "name": "Jae joon Lee",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "jjlee@dongguk.edu"
+    },
+    {
+      "name": "Jae seob Lee",
+      "major": "Department of Architectural Engineering",
+      "email": "js1998@dongguk.edu"
+    },
+    {
+      "name": "Jae young Lee",
+      "major": "Department of Life Science",
+      "email": "jylee001@dongguk.edu"
+    },
+    {
+      "name": "Jang wook Lee",
+      "major": "Department of Medicine",
+      "email": "dive2inf@gmail.com"
+    },
+    {
+      "name": "Ja rang Lee",
+      "major": "Buddhist Culture Research Institute",
+      "email": "jaranglee@hanmail.net"
+    },
+    {
+      "name": "Jee ho Lee",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "jeeholee@dgu.edu"
+    },
+    {
+      "name": "Jeong hun Lee",
+      "major": "Department of Medicine",
+      "email": "smcer007@duih.org"
+    },
+    {
+      "name": "Jeong jun Lee",
+      "major": "Department of Medicine",
+      "email": "korea840811@daum.net"
+    },
+    {
+      "name": "Jin Suk Lee",
+      "major": "Department of Business Administration",
+      "email": "jsl1123@dongguk.edu"
+    },
+    {
+      "name": "Jin woo Lee",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "jlee484@dgu.ac.kr"
+    },
+    {
+      "name": "Jong uk Lee",
+      "major": "Department of Biomedical Engineering",
+      "email": "jonguklee@scnu.ac.kr"
+    },
+    {
+      "name": "Joo ha Lee",
+      "major": "Department of Public Administration",
+      "email": "leejooha@dongguk.edu"
+    },
+    {
+      "name": "Jung taek Lee",
+      "major": "Department of Economics",
+      "email": "lee.jungtaek@gmail.com"
+    },
+    {
+      "name": "Jun kyu Lee",
+      "major": "Department of Medicine",
+      "email": "gerome@dumc.or.kr"
+    },
+    {
+      "name": "Kang woo Lee",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "klee@dongguk.edu"
+    },
+    {
+      "name": "Ki song Lee",
+      "major": "Department of Information and Communication Engineering",
+      "email": "kslee851105@gmail.com"
+    },
+    {
+      "name": "Kwang geun Lee",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "kwglee@dongguk.edu"
+    },
+    {
+      "name": "Kwang hoon Lee",
+      "major": "Department of Medicine",
+      "email": "lkh24217@hanmail.net"
+    },
+    {
+      "name": "Kyeong Lee",
+      "major": "Department of Pharmacy",
+      "email": "kaylee@dongguk.edu"
+    },
+    {
+      "name": "Min ho Lee",
+      "major": "Department of Life Science",
+      "email": "MinhoLee@dgu.edu"
+    },
+    {
+      "name": "Moo yeol Lee",
+      "major": "Department of Pharmacy",
+      "email": "mlee@dongguk.edu"
+    },
+    {
+      "name": "Myung sik Lee",
+      "major": "Department of Architectural Engineering",
+      "email": "mslee@dongguk.edu"
+    },
+    {
+      "name": "Nam young Lee",
+      "major": "Department of Medicine",
+      "email": "ny@dumc.or.kr"
+    },
+    {
+      "name": "Sae youn Lee",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "saeyounlee@dongguk.edu"
+    },
+    {
+      "name": "Sangeun Lee",
+      "major": "Department of Education",
+      "email": "idealsilver12@gmail.com"
+    },
+    {
+      "name": "Sang hee Lee",
+      "major": "Department of Social Welfare Counselling",
+      "email": "20200037@dongguk.edu"
+    },
+    {
+      "name": "Sang ho Lee",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "slee24@dgu.ac.kr"
+    },
+    {
+      "name": "Sang hun Lee",
+      "major": "Department of Medicine",
+      "email": "em.sanghun@gmail.com"
+    },
+    {
+      "name": "Sang hyun Lee",
+      "major": "Department of Business Administration",
+      "email": "edlee@dongguk.edu"
+    },
+    {
+      "name": "Sang il Lee",
+      "major": "Department of Civil and Environmental Engineering",
+      "email": "islee@dongguk.edu"
+    },
+    {
+      "name": "Sangjoon Lee",
+      "major": "Department of Business Administration",
+      "email": "sangjoonlee@dongguk.edu"
+    },
+    {
+      "name": "Sang ryong Lee",
+      "major": "Department of Biological and Environmental Science",
+      "email": "leesang@dgu.ac.kr"
+    },
+    {
+      "name": "Sang yong Lee",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "sangyonglee@dongguk.edu"
+    },
+    {
+      "name": "Se joon Lee",
+      "major": "Division of System Semiconductor",
+      "email": "sejoon@dongguk.edu"
+    },
+    {
+      "name": "Seok hee Lee",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "seokhee@dongguk.edu"
+    },
+    {
+      "name": "Seung chul Lee",
+      "major": "Department of Medicine",
+      "email": "edlee@duih.org"
+    },
+    {
+      "name": "Seung eun Lee",
+      "major": "Department of Medicine",
+      "email": "seyi0918@naver.com"
+    },
+    {
+      "name": "Seung ho Lee",
+      "major": "Department of Medicine",
+      "email": "heydoc74@hanmail.net"
+    },
+    {
+      "name": "Seung hun Lee",
+      "major": "Department of Biomedical Engineering",
+      "email": "lsean@dongguk.edu"
+    },
+    {
+      "name": "Seung hyun Lee",
+      "major": "Department of Law",
+      "email": "lshhs23@hanmail.net"
+    },
+    {
+      "name": "Seung Jae Lee",
+      "major": "Department of Accounting",
+      "email": "seungjaes88@gmail.com"
+    },
+    {
+      "name": "Seung jun Lee",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "sjunlee@dgu.ac.kr"
+    },
+    {
+      "name": "Sim yeol Lee",
+      "major": "Department of Home Economics Education",
+      "email": "slee@dongguk.edu"
+    },
+    {
+      "name": "Song yi Lee",
+      "major": "Dharma College",
+      "email": "songyilee@empas.com"
+    },
+    {
+      "name": "Soo hong Lee",
+      "major": "Department of Biomedical Engineering",
+      "email": "soohong@dongguk.edu"
+    },
+    {
+      "name": "Sue hyun Lee",
+      "major": "Department of Business Administration",
+      "email": "serene0720@gmail.com"
+    },
+    {
+      "name": "Su hwan Lee",
+      "major": "Department of Medicine",
+      "email": "lsh3315@naver.com"
+    },
+    {
+      "name": "Sung cheol Lee",
+      "major": "Department of Geography Education",
+      "email": "leesc@dongguk.edu"
+    },
+    {
+      "name": "Su yea Lee",
+      "major": "Department of Fine Arts",
+      "email": "leesuyea@dongguk.edu"
+    },
+    {
+      "name": "Taegeun Lee",
+      "major": "Department of Medicine",
+      "email": "seantk3@naver.com"
+    },
+    {
+      "name": "Wan hee Lee",
+      "major": "Department of Convergence Security",
+      "email": "davincidecoder@gmail.com"
+    },
+    {
+      "name": "Woo jin Lee",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "wj926@dgu.ac.kr"
+    },
+    {
+      "name": "Woong hee Lee",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "woongheelee@dongguk.edu"
+    },
+    {
+      "name": "Yong joong Lee",
+      "major": "Department of Law",
+      "email": "grotian@dongguk.edu"
+    },
+    {
+      "name": "Young min Lee",
+      "major": "Division of System Semiconductor",
+      "email": "ymlee@dongguk.edu"
+    },
+    {
+      "name": "Young myon Lee",
+      "major": "Department of Business Administration",
+      "email": "youngman@dongguk.edu"
+    },
+    {
+      "name": "Youn suk Lee",
+      "major": "Department of Medicine",
+      "email": "ylee@dgu.ac.kr"
+    },
+    {
+      "name": "Yu cheol Lee",
+      "major": "Department of Information and Communication Engineering",
+      "email": "yulee@dongguk.edu"
+    },
+    {
+      "name": "Yung seop Lee",
+      "major": "Department of Statistics",
+      "email": "yung@dongguk.edu"
+    },
+    {
+      "name": "Dae woon Lim",
+      "major": "Department of Information and Communication Engineering",
+      "email": "dwlim01@dgu.edu"
+    },
+    {
+      "name": "Eun ho Lim",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "eunholim85@gmail.com"
+    },
+    {
+      "name": "Joong yeon Lim",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "jylim@dongguk.edu"
+    },
+    {
+      "name": "Sang soo Lim",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "sslim@dgu.ac.kr"
+    },
+    {
+      "name": "Soo a Lim",
+      "major": "Department of Medicine",
+      "email": "sooalim68@gmail.com"
+    },
+    {
+      "name": "Soo chul Lim",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "limsc@dgu.edu"
+    },
+    {
+      "name": "Sung mook Lim",
+      "major": "Department of Business Administration",
+      "email": "sungmook@dongguk.edu"
+    },
+    {
+      "name": "Tae jun Lim",
+      "major": "Department of Economics",
+      "email": "limtaejun@dongguk.edu"
+    },
+    {
+      "name": "Young ae Lim",
+      "major": "Department of Cultural Heritage",
+      "email": "yalim0105@dongguk.edu"
+    },
+    {
+      "name": "Yun jeong Lim",
+      "major": "Department of Medicine",
+      "email": "drlimyj@gmail.com"
+    },
+    {
+      "name": "Yi qi Liu",
+      "major": "Dongguk Business School(MBA)",
+      "email": "jtankjlyq@naver.com"
+    },
+    {
+      "name": "Vadiyar Madagonda",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "mvadiyarraje@gmail.com"
+    },
+    {
+      "name": "Edoardo Magnone",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "magnone.edoardo@gmail.com"
+    },
+    {
+      "name": "Seung hye Mah",
+      "major": "Division of English Language & Literature",
+      "email": "shm213@gmail.com"
+    },
+    {
+      "name": "Chandreswar Mahata",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "chandreswar@gmail.com"
+    },
+    {
+      "name": "Tahir Mahmood",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "tahirmahmood.cs@gmail.com"
+    },
+    {
+      "name": "Ramu Manikandan",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "mani.ramumala@gmail.com"
+    },
+    {
+      "name": "Masud",
+      "major": "Department of Biomedical Engineering",
+      "email": "masud@dongguk.edu"
+    },
+    {
+      "name": "Karin Mcdonald",
+      "major": "Department of Business Administration",
+      "email": "profk@dgu.ac.kr"
+    },
+    {
+      "name": "Abhishek Meena",
+      "major": "Division of System Semiconductor",
+      "email": "pakar.abhishek@gmail.com"
+    },
+    {
+      "name": "Sungwook Mhin",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "hyeleci@gmail.com"
+    },
+    {
+      "name": "Jung ho Min",
+      "major": "Division of Korean Language, Literature, and Creative Writing",
+      "email": "minjungho31@naver.com"
+    },
+    {
+      "name": "Se jin Min",
+      "major": "Department of Economics",
+      "email": "sejinmin@dongguk.edu"
+    },
+    {
+      "name": "Hwan pyo Moon",
+      "major": "Department of Mathematics",
+      "email": "hpmoon@dongguk.edu"
+    },
+    {
+      "name": "Hyun gong Moon",
+      "major": "Department of Buddhist Studies",
+      "email": "darkmhg@hanmail.net"
+    },
+    {
+      "name": "Kyoung yeon Moon",
+      "major": "Dharma College",
+      "email": "kymoon1231@dongguk.edu"
+    },
+    {
+      "name": "Hossam Hammouda Nada",
+      "major": "Department of Pharmacy",
+      "email": "hossam_hammouda@dgu.ac.kr"
+    },
+    {
+      "name": "Eun young Nam",
+      "major": "Department of Global Trade",
+      "email": "nanyinying@dongguk.edu"
+    },
+    {
+      "name": "Hye jeong Nam",
+      "major": "Department of Accounting",
+      "email": "namhj@dongguk.edu"
+    },
+    {
+      "name": "Ji hyung Nam",
+      "major": "Department of Medicine",
+      "email": "drnamesl@gmail.com"
+    },
+    {
+      "name": "Ki yeun Nam",
+      "major": "Department of Medicine",
+      "email": "rusl98@hanmail.net"
+    },
+    {
+      "name": "Kyung wan Nam",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "knam@dongguk.edu"
+    },
+    {
+      "name": "Hyun Namgung",
+      "major": "Dharma College",
+      "email": "nghyun22@gmail.com"
+    },
+    {
+      "name": "Benjamin Nketia-Yawson",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "nkeyaw1@gmail.com"
+    },
+    {
+      "name": "Choong hyeon Oh",
+      "major": "Department of Biological and Environmental Science",
+      "email": "ecology@dongguk.edu"
+    },
+    {
+      "name": "Dong jun Oh",
+      "major": "Department of Medicine",
+      "email": "mileo31@naver.com"
+    },
+    {
+      "name": "Jae min Oh",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "jaemin.oh@dongguk.edu"
+    },
+    {
+      "name": "Jong hyun Oh",
+      "major": "Department of Medicine",
+      "email": "jho97@hanmail.net"
+    },
+    {
+      "name": "Sang woo Oh",
+      "major": "Department of Medicine",
+      "email": "osw6021@gmail.com"
+    },
+    {
+      "name": "Young min Oh",
+      "major": "Department of Public Administration",
+      "email": "dowhat@naver.com"
+    },
+    {
+      "name": "Erin Okamoto",
+      "major": "Dharma College",
+      "email": "erinlokamoto@gmail.com"
+    },
+    {
+      "name": "Indirajith Palani",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "indrajith.palani@gmail.com"
+    },
+    {
+      "name": "Ramasubba Reddy Palem",
+      "major": "Department of Biomedical Engineering",
+      "email": "palemrsr@gmail.com"
+    },
+    {
+      "name": "Puran Pandey",
+      "major": "Department of Physics",
+      "email": "ppcpurans@gmail.com"
+    },
+    {
+      "name": "Bong ser Park",
+      "major": "Department of Chemistry",
+      "email": "parkbs@dongguk.edu"
+    },
+    {
+      "name": "Bum sik Park",
+      "major": "Division of English Language & Literature",
+      "email": "bumsikpark@dongguk.edu"
+    },
+    {
+      "name": "Chan kyoo Park",
+      "major": "Department of Business Administration",
+      "email": "parkck@dongguk.edu"
+    },
+    {
+      "name": "Cheong hwan Park",
+      "major": "Department of Buddhist Studies",
+      "email": "avadana@hanmail.net"
+    },
+    {
+      "name": "Cheong kyu Park",
+      "major": "Department of Accounting",
+      "email": "ckpark@dongguk.edu"
+    },
+    {
+      "name": "Eun chan Park",
+      "major": "Department of Information and Communication Engineering",
+      "email": "ecpark@dongguk.edu"
+    },
+    {
+      "name": "Gang ryung Park",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "parkgr@dongguk.edu"
+    },
+    {
+      "name": "Hyun chang Park",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "hcpark@dongguk.edu"
+    },
+    {
+      "name": "Hyun joo Park",
+      "major": "Department of Education",
+      "email": "hjpark@dongguk.edu"
+    },
+    {
+      "name": "Jae wan Park",
+      "major": "Department of Accounting",
+      "email": "jwpark@dongguk.edu"
+    },
+    {
+      "name": "Jin hee Park",
+      "major": "Dharma College",
+      "email": "park0227@dongguk.edu"
+    },
+    {
+      "name": "Jin ho Park",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "gomalove@hanmail.net"
+    },
+    {
+      "name": "Jin woo Park",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "jinwoop@dgu.ac.kr"
+    },
+    {
+      "name": "Jin woo Park",
+      "major": "Department of Medicine",
+      "email": "jinwoo.park.md@gmail.com"
+    },
+    {
+      "name": "Jong bae Park",
+      "major": "Department of Education",
+      "email": "jbpark@dongguk.edu"
+    },
+    {
+      "name": "Joo hyun Park",
+      "major": "Department of Medicine",
+      "email": "pparkjoo@naver.com"
+    },
+    {
+      "name": "Ju hyun Park",
+      "major": "Department of Statistics",
+      "email": "juhyunp@dongguk.edu"
+    },
+    {
+      "name": "Jung dong Park",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "jdpark@dongguk.edu"
+    },
+    {
+      "name": "Jung e Park",
+      "major": "Department of Medicine",
+      "email": "noizegun@gmail.com"
+    },
+    {
+      "name": "Jung hoon Park",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "pjhoon@dongguk.edu"
+    },
+    {
+      "name": "Kwan soon Park",
+      "major": "Department of Architectural Engineering",
+      "email": "kpark@dongguk.edu"
+    },
+    {
+      "name": "Myoung ho Park",
+      "major": "Department of Political Science and Diplomacy",
+      "email": "mpark@dgu.edu"
+    },
+    {
+      "name": "Myung kwan Park",
+      "major": "Division of English Language & Literature",
+      "email": "parkmk@dongguk.edu"
+    },
+    {
+      "name": "Sang jin Park",
+      "major": "Department of Convergence Security",
+      "email": "idsjsj2@hanmail.net"
+    },
+    {
+      "name": "Sang kwon Park",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "parksk@dongguk.edu"
+    },
+    {
+      "name": "Seok hong Park",
+      "major": "Department of Chinese Language and Literature",
+      "email": "feixiang@dongguk.edu"
+    },
+    {
+      "name": "Seok won Park",
+      "major": "Department of Medicine",
+      "email": "sw43857@dumc.or.kr"
+    },
+    {
+      "name": "Seong yeon Park",
+      "major": "Department of Medicine",
+      "email": "psy99ch@hanmail.net"
+    },
+    {
+      "name": "Soo hwan Park",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "parksh@dongguk.edu"
+    },
+    {
+      "name": "Sooryun Park",
+      "major": "Department of Medicine",
+      "email": "psooryun@gmail.com"
+    },
+    {
+      "name": "Sun hyung Park",
+      "major": "Department of Education",
+      "email": "sunhpark@dongguk.edu"
+    },
+    {
+      "name": "Sun young Park",
+      "major": "Department of Economics",
+      "email": "sanovs@gmail.com"
+    },
+    {
+      "name": "Yoo heon Park",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "ypark@dongguk.edu"
+    },
+    {
+      "name": "Young jin Park",
+      "major": "Department of Medicine",
+      "email": "parkyj@duih.org"
+    },
+    {
+      "name": "Jayanta Kumar Patra",
+      "major": "College of Life Science and Biotechnology",
+      "email": "jkpatra@dongguk.edu"
+    },
+    {
+      "name": "Prince",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "ee.prince@ieee.org"
+    },
+    {
+      "name": "Ganji Seeta Rama Raju",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "gseetaramaraju7@dongguk.edu"
+    },
+    {
+      "name": "Sivalingam Ramesh",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "sivaramesh_74@yahoo.co.in"
+    },
+    {
+      "name": "Kugalur Shanmugam Ranjith",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "ranjuphy@gmail.com"
+    },
+    {
+      "name": "Kyoung won Rhee",
+      "major": "Department of Economics",
+      "email": "krhee@dongguk.edu"
+    },
+    {
+      "name": "Min joong Rim",
+      "major": "Department of Information and Communication Engineering",
+      "email": "minjoong@dongguk.edu"
+    },
+    {
+      "name": "Chul Ryu",
+      "major": "Department of Information and Communication Engineering",
+      "email": "cryu@dongguk.edu"
+    },
+    {
+      "name": "Jeh kwang Ryu",
+      "major": "Department of Physical Education",
+      "email": "ryujk@dongguk.edu"
+    },
+    {
+      "name": "Seung yoon Ryu",
+      "major": "Department of Physics",
+      "email": "justie74@dongguk.edu"
+    },
+    {
+      "name": "Ganesh Dattatraya Saratale",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "gdsaratale@gmail.com"
+    },
+    {
+      "name": "Rijuta Ganesh Saratale",
+      "major": "College of Life Science and Biotechnology",
+      "email": "rijutaganesh@gmail.com"
+    },
+    {
+      "name": "Arisa Satoh",
+      "major": "Department of Japanese Studies",
+      "email": "hisatoo@naver.com"
+    },
+    {
+      "name": "Antonysamy Dennyson Savariraj",
+      "major": "Department of Chemistry",
+      "email": "dennysons@gmail.com"
+    },
+    {
+      "name": "Sankar Sekar",
+      "major": "College of Advanced Convergence Engineering",
+      "email": "sanssekar@dongguk.edu"
+    },
+    {
+      "name": "Jun seok Seo",
+      "major": "Department of Medicine",
+      "email": "drsjs@dumc.or.kr"
+    },
+    {
+      "name": "Tae gun Seo",
+      "major": "Department of Life Science",
+      "email": "tseo@dongguk.edu"
+    },
+    {
+      "name": "Wang mo Seo",
+      "major": "Department of Buddhist Studies",
+      "email": "seojeongdo@hanmail.net"
+    },
+    {
+      "name": "Young kwon Seo",
+      "major": "Department of Biomedical Engineering",
+      "email": "bioseo@dongguk.edu"
+    },
+    {
+      "name": "Young rok Seo",
+      "major": "Department of Life Science",
+      "email": "seoyr@dongguk.edu"
+    },
+    {
+      "name": "Moon gi Seok",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "mgseok@dgu.ac.kr"
+    },
+    {
+      "name": "Jae seong Shim",
+      "major": "Industry Professional Practice (IPP) Center",
+      "email": "jsshim89@naver.com"
+    },
+    {
+      "name": "Ji won Shim",
+      "major": "Department of Philosophy",
+      "email": "g1dmp@daum.net"
+    },
+    {
+      "name": "Tae eun Shim",
+      "major": "Department of Education",
+      "email": "shim2593@dongguk.edu"
+    },
+    {
+      "name": "Dong ho Shin",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "goodsdh555@naver.com"
+    },
+    {
+      "name": "Han seung Shin",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "spartan@dongguk.edu"
+    },
+    {
+      "name": "In soo Shin",
+      "major": "Graduate School of Education",
+      "email": "s9065031@dongguk.edu"
+    },
+    {
+      "name": "Jae cheol Shin",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "jcshin@dgu.ac.kr"
+    },
+    {
+      "name": "Jeong ah Shin",
+      "major": "Division of English Language & Literature",
+      "email": "jashin@dongguk.edu"
+    },
+    {
+      "name": "Na min Shin",
+      "major": "Department of Education",
+      "email": "naminshin@dgu.edu"
+    },
+    {
+      "name": "Youn soon Shin",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "ysshin@dongguk.edu"
+    },
+    {
+      "name": "Hyang Koo Shon",
+      "major": "Dharma College",
+      "email": "hkshon97@dongguk.edu"
+    },
+    {
+      "name": "Nabeen Kumar Shrestha",
+      "major": "Division of System Semiconductor",
+      "email": "nabeenkshrestha@hotmail.com"
+    },
+    {
+      "name": "Aditya Narayan Singh",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "truth.aditya@gmail.com"
+    },
+    {
+      "name": "Rajendra Singh",
+      "major": "Department of Biological and Environmental Science",
+      "email": "911ras@gmail.com"
+    },
+    {
+      "name": "Vivek Pratap Singh",
+      "major": "Department of Advanced Battery Convergence Engineering",
+      "email": "vivek_2121ee21@iitp.ac.in"
+    },
+    {
+      "name": "Periyasamy Sivakumar",
+      "major": "Department of Chemistry",
+      "email": "p_siva1978@yahoo.co.in"
+    },
+    {
+      "name": "Aneesh Sivaraman",
+      "major": "Department of Pharmacy",
+      "email": "aneeshsthuruthil89@gmail.com"
+    },
+    {
+      "name": "In soo Sohn",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "isohn@dongguk.edu"
+    },
+    {
+      "name": "Jung in Sohn",
+      "major": "Department of Physics",
+      "email": "junginn.sohn@dongguk.edu"
+    },
+    {
+      "name": "Brian D. Somers",
+      "major": "Department of Buddhist Studies",
+      "email": "briansomers29@dongguk.edu"
+    },
+    {
+      "name": "Jin Son",
+      "major": "Department of Buddhist Studies",
+      "email": "buddhajw@dongguk.edu"
+    },
+    {
+      "name": "Young doo Son",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "youngdoo@dongguk.edu"
+    },
+    {
+      "name": "Yun sik Son",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "sonbug@dongguk.edu"
+    },
+    {
+      "name": "Back hoon Song",
+      "major": "Department of International Trade",
+      "email": "bsong@dongguk.edu"
+    },
+    {
+      "name": "Jeongin Song",
+      "major": "Department of Medicine",
+      "email": "sji5040@gmail.com"
+    },
+    {
+      "name": "Jung hyun Song",
+      "major": "Department of Japanese Studies",
+      "email": "arkenciel@gmail.com"
+    },
+    {
+      "name": "Min kyu Song",
+      "major": "Division of System Semiconductor",
+      "email": "mksong@dongguk.edu"
+    },
+    {
+      "name": "Myung ho Song",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "songm@dongguk.edu"
+    },
+    {
+      "name": "Soo hwan Song",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "songsh@dongguk.edu"
+    },
+    {
+      "name": "Sung Hyuk Song",
+      "major": "Department of Mechanical, Robotics and Energy Engineering",
+      "email": "shsong@dgu.ac.kr"
+    },
+    {
+      "name": "Sang yeon Suh",
+      "major": "Department of Medicine",
+      "email": "lisasuhmd@hotmail.com"
+    },
+    {
+      "name": "Yong yoon Suh",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "ysuh@dgu.edu"
+    },
+    {
+      "name": "Suk kyu Sun",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "sukkyu.sun@dongguk.edu"
+    },
+    {
+      "name": "Chang soo Sung",
+      "major": "Department of Technology Entrepreneurship",
+      "email": "redsung44@naver.com"
+    },
+    {
+      "name": "Jung suk Sung",
+      "major": "Department of Life Science",
+      "email": "sungjs@dongguk.edu"
+    },
+    {
+      "name": "Sang hyeon Sung",
+      "major": "Department of Business Administration",
+      "email": "shsung@dongguk.edu"
+    },
+    {
+      "name": "Yun sick Sung",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "sung@dongguk.edu"
+    },
+    {
+      "name": "Shahzeb Tariq",
+      "major": "Department of Biological and Environmental Science",
+      "email": "shahzebtariq@gmail.com"
+    },
+    {
+      "name": "Aviraj Mahadev Teli",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "avteli.teli@gmail.com"
+    },
+    {
+      "name": "Jitendra Nath Tiwari",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "jitu1234.jitendra@gmail.com"
+    },
+    {
+      "name": "Zahid Ullah",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "zeeuom@gmail.com"
+    },
+    {
+      "name": "Dhanasekaran Vikraman",
+      "major": "Department of Electronics & Electrical Engineering",
+      "email": "v.j.dhanasekaran@gmail.com"
+    },
+    {
+      "name": "Ayyar Thevar Ezhil Vilian",
+      "major": "Department of Energy and Materials Engineering",
+      "email": "ezhil2040@gmail.com"
+    },
+    {
+      "name": "Teklebrahan Gebrekrstos Krstos Weldemhret",
+      "major": "Department of Physics",
+      "email": "tek2721@dongguk.edu"
+    },
+    {
+      "name": "Barry Patrick Welsh",
+      "major": "Division of English Language & Literature",
+      "email": "barrywelsh23@gmail.com"
+    },
+    {
+      "name": "Kenneth Wilson",
+      "major": "Department of Political Science and Diplomacy",
+      "email": "kenneth@dongguk.edu"
+    },
+    {
+      "name": "Kee hoon Won",
+      "major": "Department of Chemical and Biochemical Engineering",
+      "email": "keehoon@dongguk.edu"
+    },
+    {
+      "name": "Go un Woo",
+      "major": "Department of Medicine",
+      "email": "palimpseste@naver.com"
+    },
+    {
+      "name": "Je son Woo",
+      "major": "Department of Buddhist Studies",
+      "email": "jwoo@dongguk.edu"
+    },
+    {
+      "name": "Jung moo Woo",
+      "major": "Department of Political Science and Diplomacy",
+      "email": "wjm77@dongguk.edu"
+    },
+    {
+      "name": "Byung yun Yang",
+      "major": "Department of Geography Education",
+      "email": "yby94@dgu.ac.kr"
+    },
+    {
+      "name": "Hee Joo Yang",
+      "major": "Department of Medicine",
+      "email": "heejoo1210@naver.com"
+    },
+    {
+      "name": "In ho Yang",
+      "major": "Department of Architectural Engineering",
+      "email": "ihyang@dongguk.edu"
+    },
+    {
+      "name": "Jae jun Yang",
+      "major": "Department of Medicine",
+      "email": "jaejunyang@gmail.com"
+    },
+    {
+      "name": "Seung hoon Yang",
+      "major": "Department of Biomedical Engineering",
+      "email": "shyang@dongguk.edu"
+    },
+    {
+      "name": "Seung yeob Yang",
+      "major": "Department of Medicine",
+      "email": "soundofmusic@dumc.or.kr"
+    },
+    {
+      "name": "Woo chul Yang",
+      "major": "Department of Physics",
+      "email": "wyang@dongguk.edu"
+    },
+    {
+      "name": "Jun sang Yeo",
+      "major": "Department of Business Administration",
+      "email": "marnia@dgu.edu"
+    },
+    {
+      "name": "Gang man Yi",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "gangman@dongguk.edu"
+    },
+    {
+      "name": "June suh Yi",
+      "major": "Department of Business Administration",
+      "email": "juyi@dongguk.edu"
+    },
+    {
+      "name": "Ga won Yim",
+      "major": "Department of Medicine",
+      "email": "gawonyim@gmail.com"
+    },
+    {
+      "name": "Byoung seung Yoo",
+      "major": "Department of Food Science & Biotechnology",
+      "email": "bsyoo@dongguk.edu"
+    },
+    {
+      "name": "Byung un Yoon",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "postman3@dongguk.edu"
+    },
+    {
+      "name": "Cho hee Yoon",
+      "major": "Department of Education",
+      "email": "chyoon@dongguk.edu"
+    },
+    {
+      "name": "Hyun sik Yoon",
+      "major": "Department of Medicine",
+      "email": "byseegis@gmail.com"
+    },
+    {
+      "name": "Jong pil Yoon",
+      "major": "Department of History Education",
+      "email": "jpyoon1982@gmail.com"
+    },
+    {
+      "name": "Sang ho Yoon",
+      "major": "Department of Medicine",
+      "email": "yoonprou@gmail.com"
+    },
+    {
+      "name": "Sang Hyeak Yoon",
+      "major": "Department of Management Information System",
+      "email": "yoonsh@dgu.ac.kr"
+    },
+    {
+      "name": "Seon tae Yoon",
+      "major": "Department of History Education",
+      "email": "yoonst@dongguk.edu"
+    },
+    {
+      "name": "Sun joong Yoon",
+      "major": "Department of Business Administration",
+      "email": "sunyoon@dongguk.edu"
+    },
+    {
+      "name": "Yoe won Yoon",
+      "major": "Department of Social Welfare",
+      "email": "yyoon@dongguk.edu"
+    },
+    {
+      "name": "Se kyoung Youm",
+      "major": "Department of Industrial and Systems Engineering",
+      "email": "skyoum@dgu.edu"
+    },
+    {
+      "name": "Tak Youn",
+      "major": "Department of Medicine",
+      "email": "takyoun@gmail.com"
+    },
+    {
+      "name": "Seong hun Yun",
+      "major": "Department of Advertising & Public relation",
+      "email": "donggukpr@dongguk.edu"
+    },
+    {
+      "name": "Seung hyun Yun",
+      "major": "Department of Computer Science and Artificial Intelligence",
+      "email": "shyun@dongguk.edu"
+    },
+    {
+      "name": "Young In Yun",
+      "major": "Department of Medicine",
+      "email": "younginyun3@gmail.com"
+    },
+    {
+      "name": "Do yang Zu",
+      "major": "Department of Fine Arts",
+      "email": "zdy3820@dongguk.edu"
+    }
+  ]
+}
